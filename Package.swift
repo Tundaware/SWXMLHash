@@ -32,6 +32,7 @@ let package = Package(
     products: [
         .library(
             name: "SWXMLHash",
+            type: .dynamic,
             targets: ["SWXMLHash"]
         )
     ],
